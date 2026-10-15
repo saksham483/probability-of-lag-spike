@@ -1,0 +1,81 @@
+{
+  "eda": {
+    "n": 3685,
+    "mean": 176.80691994572592,
+    "std": 157.98956125024495,
+    "variance": 24960.701464044898,
+    "median": 142.0,
+    "q25": 70.9,
+    "q75": 230.0,
+    "iqr": 159.1,
+    "min": 17.9,
+    "max": 2479.0,
+    "p90": 340.0,
+    "p95": 444.59999999999945,
+    "p99": 826.7599999999984,
+    "skewness": 3.560093050024114,
+    "kurtosis_excess": 25.996081324054984,
+    "kurtosis_raw": 28.996081324054984,
+    "dagostino_k2": 2967.4845092223577,
+    "dagostino_p_value": 0.0,
+    "total_transmitted": 4444,
+    "total_received": 3685,
+    "packet_loss_pct": 17.0792,
+    "seq_min": 1,
+    "seq_max": 4110,
+    "seq_span": 4110,
+    "lost_in_span": 425
+  },
+  "temporal": {
+    "lag1_autocorrelation": 0.27003644957076367,
+    "total_bursts": 642,
+    "mean_burst_length": 3.67601246105919,
+    "median_burst_length": 2.0,
+    "max_burst_length": 21,
+    "p90_burst_length": 8.0
+  },
+  "bootstrap": {
+    "mean": {
+      "point": 176.80691994572592,
+      "lower": 171.8719104477612,
+      "upper": 182.00479104477608
+    },
+    "median": {
+      "point": 142.0,
+      "lower": 138.0,
+      "upper": 146.0
+    },
+    "p90": {
+      "point": 340.0,
+      "lower": 325.0,
+      "upper": 357.0
+    },
+    "p99": {
+      "point": 826.7599999999984,
+      "lower": 680.0,
+      "upper": 928.0
+    },
+    "p_lag_100": {
+      "point": 64.04341926729987,
+      "lower": 62.57801899592944,
+      "upper": 65.59023066485753
+    }
+  },
+  "best_model": {
+    "Model": "Shifted Gamma",
+    "Parameters": {
+      "shape (alpha)": 1.2926760024780977,
+      "loc (gamma)": 17.872423393917558,
+      "scale (beta)": 122.94998737916248
+    },
+    "Num_Params (k)": 3,
+    "Log_Likelihood": -22292.434844529915,
+    "AIC": 44590.86968905983,
+    "BIC": 44609.5057664737,
+    "KS_Statistic": 0.04035847516008273,
+    "KS_p_value": 1.1867583718626969e-05,
+    "P_X_gt_100ms_pct": 64.34214286895727,
+    "P_X_gt_150ms_pct": 46.149983958904414,
+    "P_X_gt_200ms_pct": 32.565051830846194
+  }
+}

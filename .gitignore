@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary / Lock files (LibreOffice / editors)
+.~lock.*
+*.tmp
+*.bak
+*.swp
+*~
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
